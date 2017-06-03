@@ -62,8 +62,8 @@ export default {
   ],
   module: {
     rules: [
-      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']},
-      {test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?sourceMap')}
+      {test: /\.js$/, exclude: /node_modules/, use: 'babel-loader'},
+      {test: /\.css$/, use: ExtractTextPlugin.extract('css-loader?sourceMap')}
     ]
   }
 };
