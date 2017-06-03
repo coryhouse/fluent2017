@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
-    "babel-core": "6.24.1",
     "babel-loader": "7.0.0",
     "babel-preset-latest": "6.24.1",
     "babel-register": "6.24.1",
@@ -45,8 +44,7 @@
     "json-server": "0.10.1",
     "mocha": "3.4.2",
     "npm-run-all": "4.0.2",
-    "numeral": "2.0.6",
-    "open": "0.0.5",
+    "opn": "5.0.0",
     "rimraf": "2.6.1",
     "style-loader": "0.18.1",
     "surge": "0.19.0",
