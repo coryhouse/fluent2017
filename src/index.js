@@ -13,7 +13,7 @@ getUsers().then(result => {
       <td>${user.firstName}</td>
       <td>${user.lastName}</td>
       <td>${user.email}</td>
-      </tr>`
+      </tr>`;
   });
 
   global.document.getElementById('users').innerHTML = usersBody;
