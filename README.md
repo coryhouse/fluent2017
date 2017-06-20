@@ -1,6 +1,6 @@
 # JavaScript Development Environment
 
-This is a generic JavaScript development environment that I build from scratch in ["Building a JavaScript Development Environment" on Pluralsight](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents). This isn't tied to any specific JS framework.
+This is a simplified version of the JavaScript development environment that I build from scratch in ["Building a JavaScript Development Environment" on Pluralsight](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents). This environment isn't tied to any specific JS framework or platform.
 
 ## Get Started
 
