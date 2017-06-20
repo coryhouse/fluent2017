@@ -12,7 +12,7 @@ This is a generic JavaScript development environment that I build from scratch i
 This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching files all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically. Note: The -s flag is optional. It enables silent mode which suppresses unnecessary messages during the build.
 6. Having issues? See below.
 
-## Having Issues? Try these things first:
+## Having Issues?
 
 1. Run `npm install` - If you forget to do this, you'll see this: `babel-node: command not found`.
 2. Make sure you're running the latest version of Node. Or, use [Node 6.9.1](https://nodejs.org/en/download/releases/) if you're having issues on Windows. Node 7 has issues on some Windows machines.
