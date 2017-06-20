@@ -84,7 +84,7 @@
     "env": {
       "browser": true,
       "node": true,
-      "jest": true
+      "mocha": true
     },
     "rules": {
       "no-console": 1,
