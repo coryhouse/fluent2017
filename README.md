@@ -20,34 +20,3 @@ This will run the automated build process, start up a webserver, and open the ap
 4. Don't run the project from a symbolic link. It will cause issues with file watches.
 5. Having linting issues? Delete any .eslintrc that you're storing in your user directory. Also, disable any ESLint plugin / custom rules that you've enabled within your editor. These will conflict with the ESLint rules defined in the course.
 6. Nothing above work? Delete your node_modules folder and re-run npm install.
-
-### Development Dependencies
-
-| **Dependency**              | **Use**                                                                                                   |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- |
-| babel-cli                   | Babel Command line interface                                                                              |
-| babel-core                  | Babel Core for transpiling the new JavaScript to old                                                      |
-| babel-loader                | Adds Babel support to Webpack                                                                             |
-| babel-preset-latest         | Babel preset for running all the latest standardized JavaScript features                                  |
-| babel-register              | Register Babel to transpile our Mocha tests                                                               |
-| cheerio                     | Supports querying DOM with jQuery like syntax - Useful in testing and build process for HTML manipulation |
-| cross-env                   | Cross-environment friendly way to handle environment variables                                            |
-| css-loader                  | Add CSS support to Webpack                                                                                |
-| eslint                      | Lints JavaScript                                                                                          |
-| eslint-plugin-import        | Advanced linting of ES6 imports                                                                           |
-| eslint-watch                | Add watch functionality to ESLint                                                                         |
-| eventsource-polyfill        | Polyfill to support hot reloading in IE                                                                   |
-| expect                      | Assertion library for use with Mocha                                                                      |
-| express                     | Serves development and production builds                                                                  |
-| extract-text-webpack-plugin | Extracts CSS into separate file for production build                                                      |
-| file-loader                 | Adds file loading support to Webpack                                                                      |
-| jsdom                       | In-memory DOM for testing                                                                                 |
-| mocha                       | JavaScript testing library                                                                                |
-| npm-run-all                 | Display results of multiple commands on single command line                                               |
-| open                        | Open app in default browser                                                                               |
-| rimraf                      | Delete files                                                                                              |
-| style-loader                | Add Style support to Webpack                                                                              |
-| url-loader                  | Add url loading support to Webpack                                                                        |
-| webpack                     | Bundler with plugin system and integrated development server                                              |
-| webpack-dev-middleware      | Adds middleware support to webpack                                                                        |
-| webpack-hot-middleware      | Adds hot reloading to webpack                                                                             |
