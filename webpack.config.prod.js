@@ -54,19 +54,16 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },
-      inject: true,
-      // Properties you define here are available in index.html
-      // using htmlWebpackPlugin.options.varName
-      trackJSToken: 'INSERT YOUR TOKEN HERE'
+      inject: true
     }),
 
     // Minify JS
     new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
-    loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']},
-      {test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?sourceMap')}
+    rules: [
+      {test: /\.js$/, exclude: /node_modules/, use: 'babel-loader'},
+      {test: /\.css$/, use: ExtractTextPlugin.extract('css-loader?sourceMap')}
     ]
   }
 };
