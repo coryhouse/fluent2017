@@ -71,7 +71,7 @@
       }
     }
   },
-  "eslint": {
+  "eslintConfig": {
     "root": true,
     "extends": [
       "eslint:recommended",
@@ -88,7 +88,8 @@
       "mocha": true
     },
     "rules": {
-      "no-console": 1
+      "no-console": 1,
+      "semi": 1
     }
   }
 }
